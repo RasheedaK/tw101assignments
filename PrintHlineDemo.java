@@ -10,6 +10,6 @@ public class PrintHlineDemo {
         Scanner sc=new Scanner(System.in);
         number=sc.nextInt();
         PrintHline obj=new PrintHline();
-        obj.printIt(number);
+        obj.printLine(number);
     }
 }
