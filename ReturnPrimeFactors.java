@@ -3,17 +3,17 @@
  */
 package com.tw;
 public class ReturnPrimeFactors {
-    void generate(int num)
+    void generatePrimeFactors(int num)
     {
         for(int i=2;i<=num;i++)
         {
-            int result=Check(i);
+            int result=isItPrime(i);
             if(result==1 && num%i==0) {
                 System.out.println(i);
             }
         }
     }
-    int Check(int num)
+    int isItPrime(int num)
     {
         int count=0;
         for(int i=2;i<=num;i++)
