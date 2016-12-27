@@ -3,7 +3,7 @@
  */
 package com.tw;
 public class PrintHline {
-    void printIt(int num)
+    void printLine(int num)
     {
         for(int v=0;v<num;v++)
         System.out.print("*");
