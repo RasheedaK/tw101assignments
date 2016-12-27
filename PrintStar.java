@@ -3,7 +3,7 @@
  */
 package com.tw;
 public class PrintStar {
-    void printIt()
+    void printStar()
     {
         System.out.println("*");
     }
