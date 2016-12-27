@@ -10,6 +10,6 @@ public class PrintVlineDemo {
         Scanner sc=new Scanner(System.in);
         number=sc.nextInt();
         PrintVline obj=new PrintVline();
-        obj.printIt(number);
+        obj.printVline(number);
     }
 }
