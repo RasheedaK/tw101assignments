@@ -13,6 +13,6 @@ public class PrintTriangleDemo {
         Scanner sc=new Scanner(System.in);
         number=sc.nextInt();
         PrintTriangle obj=new PrintTriangle();
-        obj.printIt(number);
+        obj.printTriangle(number);
     }
 }
