@@ -3,7 +3,7 @@
  */
 package com.tw;
 public class PrintTriangle {
-        void printIt(int num) {
+        void printTriangle(int num) {
             int limit=num-1;
             int starcount=1;
             for (int i = 1; i <= num; i++) {
