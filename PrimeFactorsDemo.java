@@ -10,6 +10,6 @@ public class PrimeFactorsDemo {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         ReturnPrimeFactors obj = new ReturnPrimeFactors();
-        obj.generate(num);
+        obj.generatePrimeFactors(num);
     }
 }
