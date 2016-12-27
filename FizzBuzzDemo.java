@@ -7,6 +7,6 @@ public class FizzBuzzDemo {
     public static void main(String args[])
     {
         PrintFizzBuzz obj=new PrintFizzBuzz();
-        obj.FizzBuzz();
+        obj.fizzBuzz();
     }
 }
