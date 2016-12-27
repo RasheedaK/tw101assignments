@@ -3,7 +3,7 @@
  */
 package com.tw;
 public class PrintFizzBuzz {
-    void FizzBuzz()
+    void fizzBuzz()
     {
 
         for(int i=1;i<=100;i++)
@@ -14,8 +14,8 @@ public class PrintFizzBuzz {
                 System.out.println("Buzz");
             else if(i%3==0)
                 System.out.println("Fizz");
-			else 
-				System.out.println(i);
+	    else 
+	         System.out.println(i);
         }
     }
 }
